@@ -47,7 +47,7 @@ then
 	fi
 fi
 echo Enter the password to access server
-scp $usrname@nunki.usc.edu:/home/scf-31/xiec/$file_path /home/neil/$dest_path
+scp $usrname@nunki.usc.edu:/home/scf-31/$usrname/$file_path /home/neil/$dest_path
 ls /home/neil/$dest_path
 
 exit 0
