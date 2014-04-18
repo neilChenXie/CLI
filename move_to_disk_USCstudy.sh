@@ -4,6 +4,7 @@
 #History:
 #	No
 #04/18/2014		Chen 	v1.0
+PATH=/bin:/sbin:/usr/bin:/usr/local/bin:/usr/local/sbin:~/bin
 ls
 
 read -p "filename: " file_name
