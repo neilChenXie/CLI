@@ -1,0 +1,15 @@
+#!/bin/bash
+#shell is used to download from nunki server
+#program:
+#		input the source path after /home/.../
+#		input the dest path
+#04/18/2014	Chen v1.0
+
+PATH=/bin:/sbin:/usr/bin:/usr/local/bin:/usr/local/sbin:~/bin
+export PATH
+
+read -p "Path of the file: " file_path
+read -p "which fold want to save?: " dest_path
+
+scp xiec@nunki.usc.edu:/home/scf-31/xiec/$file_path /home/neil/$dest_path
+ls /home/neil/$dest_path
