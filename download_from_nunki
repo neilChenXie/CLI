@@ -27,7 +27,7 @@ clear
 ls /home/neil/
 echo Please choose a directory to downloads
 read -p "which fold want to save?(default is Downloads): " dest_path
-if [ -n $dest_path ]
+if [ ! -n dest_path ]
 then 
 	dest_path='Downloads'
 fi
@@ -40,6 +40,9 @@ then
 		if [ -d /home/neil/$dest_path ]
 		then
 			echo new directory is created
+		else 
+			echo cannot create this dir
+			exit 1
 		fi
 	else
 		echo operation cannot be done

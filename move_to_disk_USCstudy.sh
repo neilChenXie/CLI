@@ -17,3 +17,5 @@ read -p "which folder?: " category
 mv /home/neil/Downloads/$file_name /media/34B4DE90B4DE53C8/USCstudy/$course/$category
 
 ls /media/34B4DE90B4DE53C8/USCstudy/$course/$category
+
+exit 0
