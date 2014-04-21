@@ -1,0 +1,18 @@
+#!/bin/bash
+#program:
+#	make_html_page
+#04/21/2014 Chen V1.0
+
+cat << _EOF_
+<HTML>
+<HEAD>
+  <TITLE>
+
+  </TITLE>
+</HEAD>
+
+<BODY>
+
+</BODY>
+</HTML>
+_EOF_

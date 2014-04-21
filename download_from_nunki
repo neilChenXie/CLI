@@ -4,7 +4,7 @@
 #		input usrname
 #		input the source path after /home/.../
 #		input the dest path
-#04/18/2014	Chen v2.0
+#04/18/2014	Chen v2.2
 
 PATH=/bin:/sbin:/usr/bin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
