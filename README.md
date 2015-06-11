@@ -5,10 +5,10 @@ CLI
 Script
 ------
 
-####file
+####File
 begin with `file`
 
-####git
+####Git
 begin with `git`
 
 Template
