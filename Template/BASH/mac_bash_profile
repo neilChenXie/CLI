@@ -1,0 +1,14 @@
+#put the file under ~/
+
+#set env variable
+export PATH=$PATH:~/CLI/Script
+
+#change bash color: Download and import and set default
+
+#change vim to macvim
+alias vim="/usr/local/bin/mvim"
+
+#add git auto completion: brew install git bash-completion
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
+fi
