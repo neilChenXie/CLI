@@ -7,8 +7,12 @@ export PATH=$PATH:~/CLI/Script
 
 #change vim to macvim
 alias vim="/usr/local/bin/mvim"
+alias mou="/Applications/Mou.app/Contents/MacOS/Mou"
 
 #add git auto completion: brew install git bash-completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
+
+#add git specific auto-completion
+source ~/.git-completion.bash
