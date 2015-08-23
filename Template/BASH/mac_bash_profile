@@ -1,6 +1,11 @@
 #put the file under ~/
 
 #set env variable
+if [ -d "/usr/local/bin" ] && [[ ":$PATH:" != *":/usr/local/bin:"* ]]; then
+	#add /usr/local/bin if not exist
+	PATH="${PATH:+"$PATH:"}/usr/local/bin"
+fi
+export PATH=/usr/local/mysql/bin:$PATH
 export PATH=$PATH:~/CLI/Script
 
 #change bash color: Download and import and set default
@@ -16,3 +21,4 @@ fi
 
 #add git specific auto-completion
 source ~/.git-completion.bash
+
