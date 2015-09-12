@@ -5,20 +5,25 @@ CLI
 Script
 ------
 
-####File
+###File
 begin with `file`
 
-####Git
+###Git
 begin with `git`
 
 Template
 --------
 
-####C++
+###BASH
+bash configuration file
+```bash
+#to set up MacOS terminal
+./mac.sh
+```
+
+###C++
 makefile
 
-####BASH
-bash configuration file
 
-####Git
+###Git
 git configuration file
